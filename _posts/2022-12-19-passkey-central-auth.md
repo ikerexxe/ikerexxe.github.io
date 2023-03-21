@@ -64,23 +64,6 @@ This way the environment is ready for testing. From now on you can use the follo
 $ sudo podman exec -it client /bin/bash
 ```
 
-# Configure sssd
-
-* Edit `/etc/sssd/sssd.conf` to enable passkey authentication:
-
-```
-...
-[pam]
-pam_passkey_auth = true
-...
-```
-
-* Restart sssd service:
-
-```console
-$ systemctl restart sssd
-```
-
 # Additional configuration
 
 It is advisable to add a PIN to the key to reinforce the security. You only need to do this once.
@@ -99,10 +82,10 @@ $ ykman fido access change-pin
 $ kinit admin@IPA.TEST
 ```
 
-* Add the user:
+* Add the user and enable passkey authentication:
 
 ```console
-$ ipa user-add joe --first=joe --last=doe
+$ ipa user-add joe --first=joe --last=doe --user-auth-type=passkey
 ```
 
 ## Register a key
@@ -188,7 +171,7 @@ $ id
 uid=805400005(joe@ipa.test) gid=805400005(joe@ipa.test) groups=805400005(joe@ipa.test)
 ```
 
-Congratulations! You've succesfully authenticate as `joe` using the passkey.
+Congratulations! You've succesfully authenticate as `joe` using the passkey. Besides, while performing the authentication a Kerberos ticket has also been granted.
 
 # LDAP
 
@@ -313,3 +296,4 @@ More information regarding the sssd-ci-containers can be found [here](https://gi
 There are several options to tune the SSSD behaviour in the `sssd.conf` file. I'd recommend you to read the man page to learn how to do it.
 
 **Edit**: Install ansible module for `root`. Thanks to [Thorsten Scherf](https://github.com/tscherf) for catching it.
+**Edit2**: Include Kerberos ticket granting for IPA users.
