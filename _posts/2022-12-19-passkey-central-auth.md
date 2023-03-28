@@ -95,7 +95,7 @@ $ ipa user-add joe --first=joe --last=doe --user-auth-type=passkey
 * Register the key with sssctl:
 
 ```console
-$ sssctl passkey-exec --register --username=joe --domain=ipa.test
+$ sssctl passkey-register --username=joe --domain=ipa.test
 ```
 
 **Note**: If you'd like the full logs to be printed in the command line then append `--debug-level=9 --logger=stderr`
@@ -184,7 +184,7 @@ This part is more complicated than IPA as a custom schema needs to be created. T
 * As with the IPA server we also need to register the key with sssctl:
 
 ```console
-$ sssctl passkey-exec --register --username=alice --domain=ldap.test
+$ sssctl passkey-register --username=alice --domain=ldap.test
 ```
 
 **Note**: If you'd like the full logs to be printed in the command line then append `--debug-level=9 --logger=stderr`
@@ -296,4 +296,7 @@ More information regarding the sssd-ci-containers can be found [here](https://gi
 There are several options to tune the SSSD behaviour in the `sssd.conf` file. I'd recommend you to read the man page to learn how to do it.
 
 **Edit**: Install ansible module for `root`. Thanks to [Thorsten Scherf](https://github.com/tscherf) for catching it.
+
 **Edit2**: Include Kerberos ticket granting for IPA users.
+
+**Edit3**: Updated `sssctl` passkey registration command.
