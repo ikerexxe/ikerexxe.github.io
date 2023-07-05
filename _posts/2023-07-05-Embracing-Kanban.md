@@ -5,6 +5,8 @@ date:       2023-07-05 10:00:00 +0100
 categories: agile
 ---
 
+The following blog post was written by [Andre Boscatto](https://github.com/andreboscatto), my Product Owner, and explains our team's motivation for moving to Kanban.
+
 # Introduction
 In our quest to improve our workflow and ensuring a great product providing a better customer experience, we have made a significant decision to move away from traditional sprint planning. Instead, we have embraced Kanban, a methodology that gives us the flexibility we need to handle the demands of support scenarios. This change allows us to address urgent tasks promptly without being tied to strict sprint schedules, ultimately putting our customers at the forefront.
 
