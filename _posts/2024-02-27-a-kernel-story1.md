@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "A Kernel story I: fbdev and DRM"
-date:       2024-01-27 12:00:00 +0100
+date:       2024-02-27 12:00:00 +0100
 categories: kernel
 ---
 
@@ -28,6 +28,10 @@ fbdev can’t be used to handle the needs of modern 3D-accelerated GPU-based vid
 DRM was initially created to allow multiple programs to use video hardware resources cooperatively. DRM gets exclusive access to the GPU and is responsible for initializing and maintaining the command queue, memory, and any other hardware resource. Applications that want to use the GPU communicate with DRM, which acts as an arbitrator and takes care to avoid possible conflicts.
 
 Since then DRM has been expanded to include additional functionality, such as dynamic display configuration changes and multiple GPU management.
+
+# Next
+
+[A Kernel story II: Compositing and mode setting](/kernel/2024/03/12/a-kernel-story2.html)
 
 # References
 
