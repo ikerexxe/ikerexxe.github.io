@@ -30,6 +30,10 @@ KMS is composed of the following data structures:
 
 This is the most basic stuff needed to understand KMS and start working with the modern Linux Kernel graphic stack. If you want to know more about KMS I recommend you to read the *The Linux graphics stack in a nutshell, part 2* <sup>[8](#references)</sup> written by Thomas Zimmermann. It is very good! By the way, there's no need to read part 1 to understand part 2.
 
+# Next
+
+[A Kernel story III: Presenting the hardware](/kernel/2024/04/24/a-kernel-story3.html)
+
 # References
 
 1. [KMS](https://wiki.archlinux.org/title/kernel_mode_setting)
