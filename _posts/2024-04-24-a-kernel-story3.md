@@ -57,3 +57,7 @@ These are some picture of the final result:
 <div style="text-align: center;" markdown="1">
 ![Github Actions](/assets/figures/2024-04-24-Presenting_the_hardware_5.png)
 </div>
+
+# Next
+
+[A Kernel story IV: Build and install the kernel](/kernel/2024/05/14/a-kernel-story4.html)
