@@ -41,6 +41,7 @@ Below is the table explaining how to connect the PINs to each other.
 | 24 (GPIO 8 CE0)   | 4 (RS)           |
 | 19 (GPIO 10 MOSI) | 5 (R/W)          |
 | 23 (GPIO 11 SCLK) | 6 (E)            |
+| 6 (Ground)        | 15 (PSB)         |
 | 4 (5V power)      | 19 (BLA)         |
 | 6 (Ground)        | 20 (BLK)         |
 
