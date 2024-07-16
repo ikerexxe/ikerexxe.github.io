@@ -48,3 +48,7 @@ I have investigated other projects and they either use the parallel port, or an 
 # Conclusion
 
 As you can see, I've poured countless hours into researching how to make this work from user-space, only to hit an insurmountable wall of frustration. After a lengthy conversation with my mentor, I've decided to take a different approach. I'm going to test the serial interface using a small microcontroller. Maybe, this will shed some light on whether the `AZDelivery 12864` serial interface actually functions. And perhaps, in the process, I'll unravel the mysteries of the communication protocol.
+
+# Next
+
+[A Kernel story VI: Playing with the display with an Arduino](/kernel/2024/07/13/a-kernel-story6.html)
