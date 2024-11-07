@@ -114,3 +114,7 @@ Apart from this, it is also worth noting the time between Raspberry sends, but t
 1. [Display quick start guide](https://www.az-delivery.de/products/128x64-lcd-blaues-display-kostenfreies-e-book?variant=18704313417824)
 2. [Display page](https://www.az-delivery.de/es/products/128x64-lcd-blaues-display?_pos=1&_sid=90a0e9cf7&_ss=r)
 3. [SPI CS_HIGH](https://github.com/raspberrypi/linux/issues/3745#issuecomment-663078159)
+
+# Next
+
+[A Kernel story VII: Setting CS to active-high](/kernel/2024/06/07/a-kernel-story7.html)
