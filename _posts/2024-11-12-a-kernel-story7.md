@@ -158,3 +158,7 @@ Understanding the problem took time, but the learning journey was incredibly rew
 3. [SPI DT overlay](https://github.com/raspberrypi/linux/blob/rpi-6.6.y/arch/arm/boot/dts/overlays/spi0-1cs-overlay.dts)
 4. [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface)
 5. [Raspberry Pi forum post](https://forums.raspberrypi.com/viewtopic.php?t=378222)
+
+# Next
+
+[A Kernel story VIII: Document how to set CS active-high](/kernel/2024/12/18/a-kernel-story8.html)
