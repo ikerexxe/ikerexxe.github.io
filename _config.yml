@@ -1,12 +1,16 @@
 # Site information
-title: Iker Pedrosa's blog
-description: >- # this means to ignore newlines until next tag
-  Software Engineer. Just another technology blog.
-author: Iker Pedrosa
-github_username:  ikerexxe
-linkedin_url: https://linkedin.com/in/ikerpedrosa
+title:			Iker Pedrosa's blog
+description: 		Software Engineer. Just another technology blog.
+author: 		Iker Pedrosa
+github_username: 	ikerexxe
+linkedin_url: 		https://linkedin.com/in/ikerpedrosa
 
 # Build settings
-theme: jekyll-theme-midnight
+remote_theme: 		StartBootstrap/startbootstrap-clean-blog-jekyll #jekyll-theme-clean-blog
+permalink:		/:categories/:year/:month/:day/:title/
+paginate:		10
+paginate_path:		"/posts/page:num/"
+
+# Plugins
 plugins:
   - jekyll-feed
