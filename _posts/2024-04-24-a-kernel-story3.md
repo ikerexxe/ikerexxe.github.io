@@ -15,9 +15,10 @@ The [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) is a small board,
 
 The next diagram shows the pinout for the board. I'll use it later on to show how to connect everything.
 
-| ![Github Actions](/assets/figures/2024-04-24-Presenting_the_hardware_1.png) | 
-|:--:| 
-| *Source: [https://www.raspberrypi.com/documentation/computers/raspberry-pi.html](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html) |
+<div style="text-align: center;" markdown="1">
+![Github Actions](/assets/figures/2024-04-24-Presenting_the_hardware_1.png){: .img-fluid}
+| *Source: [https://www.raspberrypi.com/documentation/computers/raspberry-pi.html](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)* |
+</div>
 
 # AZDelivery 12864
 
@@ -26,7 +27,7 @@ The [AZDelivery 12864](https://www.az-delivery.de/en/products/128x64-lcd-blaues-
 The display diagram:
 
 <div style="text-align: center;" markdown="1">
-![Github Actions](/assets/figures/2024-04-24-Presenting_the_hardware_2.png)
+![Github Actions](/assets/figures/2024-04-24-Presenting_the_hardware_2.png){: .img-fluid}
 </div>
 
 # How to connect it
@@ -48,15 +49,15 @@ Below is the table explaining how to connect the PINs to each other.
 These are some picture of the final result:
 
 <div style="text-align: center;" markdown="1">
-![Github Actions](/assets/figures/2024-04-24-Presenting_the_hardware_3.png)
+![Github Actions](/assets/figures/2024-04-24-Presenting_the_hardware_3.png){: .img-fluid}
 </div>
 
 <div style="text-align: center;" markdown="1">
-![Github Actions](/assets/figures/2024-04-24-Presenting_the_hardware_4.png)
+![Github Actions](/assets/figures/2024-04-24-Presenting_the_hardware_4.png){: .img-fluid}
 </div>
 
 <div style="text-align: center;" markdown="1">
-![Github Actions](/assets/figures/2024-04-24-Presenting_the_hardware_5.png)
+![Github Actions](/assets/figures/2024-04-24-Presenting_the_hardware_5.png){: .img-fluid}
 </div>
 
 # Next

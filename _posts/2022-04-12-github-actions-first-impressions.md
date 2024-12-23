@@ -3,15 +3,12 @@ layout:     post
 title:      "Github Actions first impressions"
 date:       2022-04-12 12:00:00 +0100
 categories: ci
+background: '/assets/figures/2022-04-12-github-actions.png'
 ---
 
 # Introduction
 
 Lately I've been working on including several Github Actions in [SSSD](https://github.com/SSSD/sssd)'s CI workflow and I would like to share my impressions.
-
-<div style="text-align: center;" markdown="1">
-![Github Actions](/assets/figures/2022-04-12-github-actions.png)
-</div>
 
 This tool facilitates the automation of all the workflows of a given repository. From CI/CD, to issue management, to automatic PR merging. Everything you can think of that can be automated. Each workflow can use commands, scripts or, better yet, already defined actions, which can be reused in several workflows. These actions are available in the [GitHub Marketplace](https://github.com/marketplace?type=actions).
 

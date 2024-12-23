@@ -22,9 +22,10 @@ KMS is composed of the following data structures:
 * Encoders<sup>[6](#references)</sup> are the hardware components that **encode pixel data into the physical signal understood by the connector**. They are created and set by the driver. Encoders are associated with a specific connector.
 * Connectors<sup>[7](#references)</sup> represent the **physical connection to an output device**, such as HDMI or VGA ports with a connected monitor. The connector also provides information on the output device's supported display modes, physical resolution, color space, and the like. Connectors are created and set by the driver.
 
-| ![Github Actions](/assets/figures/2024-03-12-KMS_Display_Pipeline_Overview.svg) | 
-|:--:| 
+<div style="text-align: center;" markdown="1">
+![Github Actions](/assets/figures/2024-03-12-KMS_Display_Pipeline_Overview.svg){: .img-fluid}
 | *Source: https://lwn.net/Articles/955708/* |
+</div>
 
 # Conclusion
 

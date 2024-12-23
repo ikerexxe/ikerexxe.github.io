@@ -22,7 +22,10 @@ The author is able to expose in a clear and simple way how to do performance ana
 
 # Strengths
 * The figures used throughout the book help a lot to understand the context. Moreover, the figure on the cover contains a summary of all the tools that can be used to perform system performance analysis.
-![BPF performance tools](/assets/figures/2022-01-04-bpf-performance-tools.png)
+<div style="text-align: center;" markdown="1">
+![Github Actions](/assets/figures/2022-01-04-bpf-performance-tools.png){: .img-fluid}
+| *BPF performance tools* |
+</div>
 * The structure repetition of the chapters focused on different subsystems help the audience get a sense of familiarity with the underlying methodology.
 * The same tools are presented several times in different chapter to solve different kind of problems.
 * Several subsystems contain [optional exercises](https://github.com/ikerexxe/bpf_playground/tree/main/bpf_performance_tools_exercises) that help to understand how the tools are used.

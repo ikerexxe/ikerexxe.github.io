@@ -15,7 +15,10 @@ Why do I say that? Because this website not only teaches you the theory, but als
 
 For every level there's a series of dialogs that explain the commands that you will learn in them.
 
-![theory](/assets/figures/2022-06-20-learning-git-theory.png)
+<div style="text-align: center;" markdown="1">
+![Github Actions](/assets/figures/2022-06-20-learning-git-theory.png){: .img-fluid}
+| *theory* |
+</div>
 
 Usually these dialogs also contain some kind of demo that visually shows what the command does.
 
@@ -23,7 +26,10 @@ Usually these dialogs also contain some kind of demo that visually shows what th
 
 The final step of each level is an exercise where we should demonstrate that we have gained the knowledge.
 
-![exercise](/assets/figures/2022-06-20-learning-git-exercise.png)
+<div style="text-align: center;" markdown="1">
+![Github Actions](/assets/figures/2022-06-20-learning-git-exercise.png){: .img-fluid}
+| *exercise* |
+</div>
 
 These exercises contain a box with the command line, its current status and the objective of the scenario.
 

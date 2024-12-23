@@ -30,11 +30,11 @@ Below is the table explaining how to connect the PINs to each other.
 These are some picture of the final result:
 
 <div style="text-align: center;" markdown="1">
-![Github Actions](/assets/figures/2024-07-13-Playing_with_the_display_with_an_Arduino_1.jpg)
+![Github Actions](/assets/figures/2024-07-13-Playing_with_the_display_with_an_Arduino_1.jpg){: .img-fluid}
 </div>
 
 <div style="text-align: center;" markdown="1">
-![Github Actions](/assets/figures/2024-07-13-Playing_with_the_display_with_an_Arduino_2.jpg)
+![Github Actions](/assets/figures/2024-07-13-Playing_with_the_display_with_an_Arduino_2.jpg){: .img-fluid}
 </div>
 
 # Arduino
@@ -58,7 +58,7 @@ U8G2_ST7920_128X64_F_SW_SPI u8g2(U8G2_R0, /* clock=*/ 13, /* data=*/ 11, /* CS=*
 * Ta-da! The screen displays the text.
 
 <div style="text-align: center;" markdown="1">
-![Github Actions](/assets/figures/2024-07-13-Playing_with_the_display_with_an_Arduino_3.jpg)
+![Github Actions](/assets/figures/2024-07-13-Playing_with_the_display_with_an_Arduino_3.jpg){: .img-fluid}
 </div>
 
 # Raspberry
@@ -95,13 +95,15 @@ Note: the last step failed and I had to comment the line that controls the Chip 
 
 So we come to the important question, why does it work correctly on the Arduino but not on the Raspberry? To answer this question I have used a logic signal to see what each device is sending. If you look at the two images below you will be able to understand it.
 
-| ![Github Actions](/assets/figures/2024-07-13-Playing_with_the_display_with_an_Arduino_4.png) | 
-|:--:| 
+<div style="text-align: center;" markdown="1">
+![Github Actions](/assets/figures/2024-07-13-Playing_with_the_display_with_an_Arduino_4.png){: .img-fluid}
 | *Arduino* |
+</div>
 
-| ![Github Actions](/assets/figures/2024-07-13-Playing_with_the_display_with_an_Arduino_5.png) | 
-|:--:| 
+<div style="text-align: center;" markdown="1">
+![Github Actions](/assets/figures/2024-07-13-Playing_with_the_display_with_an_Arduino_5.png){: .img-fluid}
 | *Raspberry* |
+</div>
 
 Exactly, the display accepts an inverted Chip Select line and this is what the Arduino does. Unfortunately, the Raspberry Pi driver does the contrary and I'm unable to change it. So the display is not being selected when sending the information and thus, it can't be controlled.
 
