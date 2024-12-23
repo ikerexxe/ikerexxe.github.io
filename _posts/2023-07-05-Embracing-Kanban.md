@@ -3,6 +3,7 @@ layout:     post
 title:      "Embracing Kanban: Enhancing Flexibility for Support Teams"
 date:       2023-07-05 10:00:00 +0100
 categories: agile
+author:     Andre Boscatto
 ---
 
 The following blog post was written by [Andre Boscatto](https://github.com/andreboscatto), my Product Owner, and explains our team's motivation for moving to Kanban.
