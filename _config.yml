@@ -1,9 +1,11 @@
 # Site information
-title:			Iker Pedrosa's blog
-description: 		Software Engineer. Just another technology blog.
+title:			Iker's Tech Notes
+description: 		A journey through coding, Linux, and everything in between.
 author: 		Iker Pedrosa
-github_username: 	ikerexxe
-linkedin_url: 		https://linkedin.com/in/ikerpedrosa
+
+# Social profiles
+github_username:	ikerexxe
+linkedin_username:	ikerpedrosa
 
 # Build settings
 remote_theme: 		StartBootstrap/startbootstrap-clean-blog-jekyll #jekyll-theme-clean-blog
