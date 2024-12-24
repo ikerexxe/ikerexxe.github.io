@@ -31,7 +31,7 @@ Since then DRM has been expanded to include additional functionality, such as dy
 
 # Next
 
-[A Kernel story II: Compositing and mode setting](/kernel/2024/03/12/a-kernel-story2.html)
+[A Kernel story II: Compositing and mode setting](/kernel/2024/03/12/a-kernel-story2)
 
 # References
 

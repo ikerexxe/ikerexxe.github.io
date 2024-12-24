@@ -8,7 +8,7 @@ background: '/assets/figures/2024-11-12-Setting_CS_to_active_high_1.jpg'
 
 # Introduction
 
-As mentioned in the [previous post](/kernel/2024/07/13/a-kernel-story6.html), the Chip Select (CS) signal coming from the Raspberry Pi is active-low, while the display needs an active-high signal. It took me a long time (about three months) to understand the intricacies of this configuration for the Linux Kernel and the Raspberry Pi. I won't delve into the long journey it took me to arrive at the knowledge I needed to change the signal, but I will explain what needs to be done to set the CS signal to active-high.
+As mentioned in the [previous post](/kernel/2024/07/13/a-kernel-story6), the Chip Select (CS) signal coming from the Raspberry Pi is active-low, while the display needs an active-high signal. It took me a long time (about three months) to understand the intricacies of this configuration for the Linux Kernel and the Raspberry Pi. I won't delve into the long journey it took me to arrive at the knowledge I needed to change the signal, but I will explain what needs to be done to set the CS signal to active-high.
 
 # Changing the devicetree (DT) overlay
 
@@ -114,7 +114,7 @@ As you can see, the CS line is set to active-high, which means we are on the rig
 
 # Additional changes (necessary for the driver to work properly)
 
-In the [previous post](/kernel/2024/07/13/a-kernel-story7.html) I mentioned a Python driver to control the display. I had to make a couple of additional modifications to make it work. The first is to comment out the change to the CS_HIGH property. If this change is not made the driver crashes because this property is not available and can no longer be changed from the driver itself. Apart from that you also have to change the bus transfer rate to 600k. Without further ado, here are the changes:
+In the [previous post](/kernel/2024/07/13/a-kernel-story6) I mentioned a Python driver to control the display. I had to make a couple of additional modifications to make it work. The first is to comment out the change to the CS_HIGH property. If this change is not made the driver crashes because this property is not available and can no longer be changed from the driver itself. Apart from that you also have to change the bus transfer rate to 600k. Without further ado, here are the changes:
 
 ```python
 #self.spi.cshigh = True
@@ -157,4 +157,4 @@ Understanding the problem took time, but the learning journey was incredibly rew
 
 # Next
 
-[A Kernel story VIII: Document how to set CS active-high](/kernel/2024/12/18/a-kernel-story8.html)
+[A Kernel story VIII: Document how to set CS active-high](/kernel/2024/12/18/a-kernel-story8)

@@ -7,7 +7,7 @@ categories: agile
 
 # Introduction
 
-Two month ago I published a blog post about [velocity and accuracy in agile environments](https://ikerexxe.github.io/agile/2022/09/08/sprint-planning-velocity-accuracy.html) which included an experiment. Once it was finished I planned to analyse the results. This blog post will try to cover that.
+Two month ago I published a blog post about [velocity and accuracy in agile environments](/agile/2022/09/08/sprint-planning-velocity-accuracy) which included an experiment. Once it was finished I planned to analyse the results. This blog post will try to cover that.
 
 # Data
 

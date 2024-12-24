@@ -62,4 +62,4 @@ These are some picture of the final result:
 
 # Next
 
-[A Kernel story IV: Build and install the kernel](/kernel/2024/05/14/a-kernel-story4.html)
+[A Kernel story IV: Build and install the kernel](/kernel/2024/05/14/a-kernel-story4)

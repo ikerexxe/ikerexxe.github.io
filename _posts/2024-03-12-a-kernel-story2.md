@@ -7,7 +7,7 @@ categories: kernel
 
 # Introduction
 
-As mentioned in the [first post of this series](/kernel/2024/01/27/a-kernel-story1.html), DRM is a subsystem of the Linux kernel responsible for interfacing with GPUs of modern video cards. It exposes an API that user-space programs can use to send commands and data to the GPU and perform operations such as configuring the mode setting of the display and hardware-accelerated 3D rendering.
+As mentioned in the [first post of this series](/kernel/2024/02/27/a-kernel-story1), DRM is a subsystem of the Linux kernel responsible for interfacing with GPUs of modern video cards. It exposes an API that user-space programs can use to send commands and data to the GPU and perform operations such as configuring the mode setting of the display and hardware-accelerated 3D rendering.
 
 This post will focus on  DRM's KMS subsystem.
 
@@ -33,7 +33,7 @@ This is the most basic stuff needed to understand KMS and start working with the
 
 # Next
 
-[A Kernel story III: Presenting the hardware](/kernel/2024/04/24/a-kernel-story3.html)
+[A Kernel story III: Presenting the hardware](/kernel/2024/04/24/a-kernel-story3)
 
 # References
 

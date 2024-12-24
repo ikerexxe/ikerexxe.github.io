@@ -7,7 +7,7 @@ categories: idm
 
 # Introduction
 
-I started using [bitwarden](https://bitwarden.com/) several months ago and one of the weaknesses I [identified](https://ikerexxe.github.io/idm/2022/11/06/bitwarden.html) was that it created a single point of attack to retrieve all my passwords. That's why I have decided to start using FIDO2 keys to increase the security level.
+I started using [bitwarden](https://bitwarden.com/) several months ago and one of the weaknesses I [identified](/idm/2022/11/06/bitwarden) was that it created a single point of attack to retrieve all my passwords. That's why I have decided to start using FIDO2 keys to increase the security level.
 
 # Analysis
 

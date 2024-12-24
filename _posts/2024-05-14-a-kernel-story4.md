@@ -85,4 +85,4 @@ uname -r
 
 # Next
 
-[A Kernel story V: Playing with the display from user-space](/kernel/2024/06/07/a-kernel-story5.html)
+[A Kernel story V: Playing with the display from user-space](/kernel/2024/06/07/a-kernel-story5)

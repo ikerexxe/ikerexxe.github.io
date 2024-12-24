@@ -49,4 +49,4 @@ As you can see, I've poured countless hours into researching how to make this wo
 
 # Next
 
-[A Kernel story VI: Playing with the display with an Arduino](/kernel/2024/07/13/a-kernel-story6.html)
+[A Kernel story VI: Playing with the display with an Arduino](/kernel/2024/07/13/a-kernel-story6)

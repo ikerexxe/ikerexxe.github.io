@@ -119,4 +119,4 @@ Apart from this, it is also worth noting the time between Raspberry sends, but t
 
 # Next
 
-[A Kernel story VII: Setting CS to active-high](/kernel/2024/06/07/a-kernel-story7.html)
+[A Kernel story VII: Setting CS to active-high](/kernel/2024/11/12/a-kernel-story7)
