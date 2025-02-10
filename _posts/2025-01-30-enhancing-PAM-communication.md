@@ -18,6 +18,8 @@ Historically, PAM modules have had limited ways to convey information about thei
 
 This new feature is still under development, but don't worry because in this post, I will explain how to test it.
 
+I presented on this topic at the FOSDEM 2025 IAM devroom.  For a full understanding of the context and proposed solution, I recommend watching the [talk](https://fosdem.org/2025/schedule/event/fosdem-2025-4678-enhancing-pam-communication-a-json-based-approach-for-modern-authentication/).
+
 # Design
 
 <div style="text-align: center;" markdown="1">
@@ -88,3 +90,5 @@ As you can see, the JSON-based communication in PAM offers astounding extensibil
 # References:
 
 1. [<u>SSSD-GDM interface design</u>](https://github.com/SSSD/sssd.io/pull/79)
+
+**Edit**: Add talk at FOSDEM 2025.
