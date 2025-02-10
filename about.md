@@ -29,10 +29,14 @@ Catch a glimpse of Iker's passion and expertise by exploring some of his insight
 * [<u>Passkey authentication - the result</u>](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-3753-passkey-authentication-the-result/) at FOSDEM 2024.
 * [<u>Passwordless authentication in the GUI</u>](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-2169-passwordless-authentication-in-the-gui/) at FOSDEM 2024.
 * *FIDO2 en la autenticación de usuarios gestionados centralmente* at [<u>DOKSummit 2024</u>](https://doksummit.com/programa/).
+* [<u>Enhancing PAM Communication: A JSON-Based Approach for Modern Authentication</u>](https://fosdem.org/2025/schedule/event/fosdem-2025-4678-enhancing-pam-communication-a-json-based-approach-for-modern-authentication/) at FOSDEM 2025.
 
 ### Community Organization
 
-Iker's dedication to the open-source community extends to organizing events that foster collaboration and knowledge sharing. He co-organized the Identity and Access Management (IAM) devrooms at FOSDEM in both [2024](https://archive.fosdem.org/2024/schedule/track/identity-and-access-management/) and [2025](https://fosdem.org/2025/schedule/track/iam/), providing a platform for experts and enthusiasts to connect and discuss the latest advancements in IAM.
+Iker's dedication to the open-source community extends to organizing events that foster collaboration and knowledge sharing. He co-organized the Identity and Access Management (IAM) devrooms at FOSDEM in both [2024](https://archive.fosdem.org/2024/schedule/track/identity-and-access-management/) and [2025](https://fosdem.org/2025/schedule/track/iam/), providing a platform for experts and enthusiasts to connect and discuss the latest advancements in IAM. You can take a look at the initial keynote at the links below:
+
+* [<u>Welcome to the Identity and Access Management devroom!</u>](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-3487-welcome-to-the-identity-and-access-management-devroom-/) at FOSDEM 2024.
+* [<u>Welcome to the Identity and Access Management devroom!</u>](https://fosdem.org/2025/schedule/event/fosdem-2025-4065-welcome-to-identity-and-access-management-devroom-/) at FOSDEM 2025.
 
 ### Publications
 
@@ -40,6 +44,7 @@ Iker's insights extend beyond the spoken word. Delve into his written contributi
 
 * [<u>Passkey is the Future, and the Future is Now with Red Hat Enterprise Linux</u>](https://www.redhat.com/en/blog/passkey-with-rhel) at Red Hat blog.
 * [<u>FIDO2 for centrally managed users</u>](https://fedoramagazine.org/fido2-for-centrally-managed-users/) at Fedora Magazine. This article was translate to [<u>chinese</u>](https://linux.cn/article-16406-1.html) for linux.cn.
+* [<u>Passwords: a thin line between love and hate</u>](https://www.redhat.com/en/blog/passwords-love-hate) at Red Hat blog.
 
 **Connect with Iker:**
 
