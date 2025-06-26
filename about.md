@@ -30,6 +30,7 @@ Catch a glimpse of Iker's passion and expertise by exploring some of his insight
 * [<u>Passwordless authentication in the GUI</u>](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-2169-passwordless-authentication-in-the-gui/) at FOSDEM 2024.
 * *FIDO2 en la autenticación de usuarios gestionados centralmente* at [<u>DOKSummit 2024</u>](https://doksummit.com/programa/).
 * [<u>Enhancing PAM Communication: A JSON-Based Approach for Modern Authentication</u>](https://fosdem.org/2025/schedule/event/fosdem-2025-4678-enhancing-pam-communication-a-json-based-approach-for-modern-authentication/) at FOSDEM 2025.
+* [<u>Passwordless authentication: a JSON-Based Approach for modern authentication with SSSD and GNOME</u>](https://pretalx.devconf.info/devconf-cz-2025/talk/G3BQUK/) at DevConf.cz 2025.
 
 ### Community Organization
 
