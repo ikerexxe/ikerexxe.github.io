@@ -17,3 +17,8 @@ Find the details here:
 * [Linux Kernel documentation changes](https://lkml.org/lkml/2024/12/16/476)
 
 I'm grateful for the assistance I received from the community. By contributing these improvements, I hope to give back and help others facing similar challenges.
+
+# Next
+
+[A Kernel story IX: Implementing the driver](/kernel/2025/08/07/a-kernel-story9)
+
