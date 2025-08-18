@@ -47,3 +47,7 @@ After this whole battle—fighting with the boot system and deciphering the disp
 It's a reminder of why we get into these messes: for the satisfaction of overcoming each challenge, understanding how things work at a low level, and finally, seeing the result of our effort come to life on the hardware.
 
 There's still work to do, like cleaning up the code and polishing the details, but the hardest part is now over. Thank you for your patience and for sticking around. More news to come soon!
+
+# Next
+
+[A Kernel story X: Submitting the patch series](/kernel/2025/08/18/a-kernel-story10)
