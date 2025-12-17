@@ -13,6 +13,22 @@ For a full immersion in this topic, the idea is to port a display driver from fb
 
 Before getting down to business, I would like to mention here [Javier Martinez Canillas](https://github.com/martinezjavier) for all the help and mentoring he is giving me.
 
+# All articles in the series
+
+These are the links to all articles in this series:
+
+* [<u>A Kernel story I: fbdev and DRM</u>](/kernel/2024/02/27/a-kernel-story1)
+* [<u>A Kernel story II: Compositing and mode setting</u>](/kernel/2024/03/12/a-kernel-story2)
+* [<u>A Kernel story III: Presenting the hardware</u>](/kernel/2024/04/24/a-kernel-story3)
+* [<u>A Kernel story IV: Build and install the kernel</u>](/kernel/2024/05/14/a-kernel-story4)
+* [<u>A Kernel story V: Playing with the display from user-space</u>](/kernel/2024/06/07/a-kernel-story5)
+* [<u>A Kernel story VI: Playing with the display with an Arduino</u>](/kernel/2024/07/13/a-kernel-story6)
+* [<u>A Kernel story VII: Setting CS to active-high</u>](/kernel/2024/11/12/a-kernel-story7)
+* [<u>A Kernel story VIII: Document how to set CS active-high</u>](/kernel/2024/12/18/a-kernel-story8)
+* [<u>A Kernel story IX: Implementing the driver</u>](/kernel/2025/08/07/a-kernel-story9)
+* [<u>A Kernel story X: Submitting the patch series</u>](/kernel/2025/08/18/a-kernel-story10)
+* [<u>A Kernel story XI: The review loop</u>](/kernel/2025/12/17/a-kernel-story11)
+
 # The Linux framebuffer (fbdev)
 
 fbdev<sup>[1](#references)</sup> is a linux subsystem used to show graphics on a computer monitor, typically on the system console. It was designed as a hardware-independent API to give user space software access to the framebuffer using only the Linux kernel's own basic facilities and its device file system interface. Avoiding the need for external libraries which effectively implemented video drivers in user space.
