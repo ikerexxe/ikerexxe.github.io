@@ -103,7 +103,10 @@ For those who are curious, [here](https://lore.kernel.org/all/20250806-st7920-v1
 
 The journey isn't over. In fact, a new stage has just begun: the review process. Now it's time to wait for feedback, respond to comments, and hopefully, see our work integrated. But that... is a story for another day.
 
+# Next
+
+[A Kernel story XI: The review loop](/kernel/2025/12/17/a-kernel-story11)
+
 # References
 
 1. [<u>B4 end-user documentation</u>](https://b4.docs.kernel.org/en/latest/)
-
