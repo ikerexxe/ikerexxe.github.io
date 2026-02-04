@@ -31,6 +31,7 @@ Catch a glimpse of Iker's passion and expertise by exploring some of his insight
 * *FIDO2 en la autenticación de usuarios gestionados centralmente* at [<u>DOKSummit 2024</u>](https://doksummit.com/programa/).
 * [<u>Enhancing PAM Communication: A JSON-Based Approach for Modern Authentication</u>](https://fosdem.org/2025/schedule/event/fosdem-2025-4678-enhancing-pam-communication-a-json-based-approach-for-modern-authentication/) at FOSDEM 2025.
 * [<u>Passwordless authentication: a JSON-Based Approach for modern authentication with SSSD and GNOME</u>](https://pretalx.devconf.info/devconf-cz-2025/talk/G3BQUK/) at DevConf.cz 2025.
+* [<u>Passwordless authentication mechanisms from the GUI (GDM)</u>](https://fosdem.org/2026/schedule/event/NPVKAF-passwordless-gdm/) at FOSDEM 2026.
 
 ### Community Organization
 
@@ -38,6 +39,7 @@ Iker's dedication to the open-source community extends to organizing events that
 
 * [<u>Welcome to the Identity and Access Management devroom!</u>](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-3487-welcome-to-the-identity-and-access-management-devroom-/) at FOSDEM 2024.
 * [<u>Welcome to the Identity and Access Management devroom!</u>](https://fosdem.org/2025/schedule/event/fosdem-2025-4065-welcome-to-identity-and-access-management-devroom-/) at FOSDEM 2025.
+* [<u>Welcome to the Identity and Access Management devroom!</u>](https://fosdem.org/2026/schedule/event/QZ3QA8-welcome_to_identity_and_access_management_devroom/) at FOSDEM 2026.
 
 ### Publications
 
