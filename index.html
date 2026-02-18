@@ -1,4 +1,26 @@
 ---
 layout: home
-background: '/assets/figures/bg-index.jpg'
+background: '/assets/figures/bg-index.svg'
 ---
+
+<style>
+/* Front cover image adjustment on PC */
+header.masthead {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    
+    height: auto !important;
+    aspect-ratio: 5 / 1;
+}
+
+/* Front cover image adjustment on smartphone */
+@media only screen and (max-width: 767px) {
+    header.masthead {
+        aspect-ratio: 1 / 1; 
+        min-height: 350px !important;
+
+        background-size: 180% auto !important; 
+    }
+}
+</style>
