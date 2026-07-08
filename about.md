@@ -32,6 +32,8 @@ Catch a glimpse of Iker's passion and expertise by exploring some of his insight
 * [<u>Enhancing PAM Communication: A JSON-Based Approach for Modern Authentication</u>](https://fosdem.org/2025/schedule/event/fosdem-2025-4678-enhancing-pam-communication-a-json-based-approach-for-modern-authentication/) at FOSDEM 2025.
 * [<u>Passwordless authentication: a JSON-Based Approach for modern authentication with SSSD and GNOME</u>](https://pretalx.devconf.info/devconf-cz-2025/talk/G3BQUK/) at DevConf.cz 2025.
 * [<u>Passwordless authentication mechanisms from the GUI (GDM)</u>](https://fosdem.org/2026/schedule/event/NPVKAF-passwordless-gdm/) at FOSDEM 2026.
+* [<u>From upstream pytest to Fedora CI: modernizing shadow-utils system testing</u>](https://cfp.fedoraproject.org/flock-to-fedora-2026/talk/HDTEY7/) at Flock to Fedora 2026 ([<u>video</u>](https://www.youtube.com/live/-3Dt-2s82nk?t=27720)).
+* [<u>¿El fin de las contraseñas? Passwordless en Linux con SSSD</u>](https://www.opensouthcode.org/conferences/opensouthcode2026/program/proposals/1028) at OpenSouthCode 2026.
 
 ### Community Organization
 
